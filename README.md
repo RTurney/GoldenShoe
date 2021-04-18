@@ -100,6 +100,31 @@ This will run through all tests for this application.
 
 ## Developer notes:
 
+I should build this application using test-driven development, however due to time constraints and limited experience with React, I may have to just build the project as I go.
+
+1. First step for this application will be to build the main home page for this website.
+   What I will want to do from there is build this website 'mobile-first' so that the website works will on both Mobile, Ipad and Desktop.
+
+So in order to do that I will need:
+
+- [ ] Someone should be able to access the main page
+- [ ] Navigation bar
+- [ ] Footer component
+- [ ] Main body of the website
+- [ ] Ensure all components are accessible and look good on either mobile or desktop
+
+2. Second step will be to have a contact form for users to contact Golden Shoe
+
+- [ ] New page accessible through the navbar/footer of the main page
+- [ ] Will need a user name input
+- [ ] Will need email input
+- [ ] Will need a text input field
+- [ ] Need a submit button
+- [ ] Will need all the above text fields to be required for the submit button to work
+- [ ] Will need a second page with a confirmation of message
+- [ ] Will need a database to store all this information
+- [ ] Should have an email sent to my own email address using the form with all the details above, to emulate how it would work in the business setting.
+
 ### Author
 
 email: r.turney93@gmail.com
