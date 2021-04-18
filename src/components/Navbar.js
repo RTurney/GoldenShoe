@@ -6,10 +6,10 @@ class Navbar extends Component {
         return (
             <nav className="NavbarItems">
                 <ul className='navbar-links'>
-                    <li>Categories</li>
-                    <li>My account</li>
-                    <li>Help</li>
-                    <li>Basket</li>
+                    <li><a href='/'>Categories</a></li>
+                    <li><a href='/'>My Account</a></li>
+                    <li><a href='/'>Help</a></li>
+                    <li><a href='/'>Basket</a></li>
                 </ul>
             </nav>
         )
