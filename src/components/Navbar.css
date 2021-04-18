@@ -1,0 +1,15 @@
+.NavbarItems {
+  width: 100%;
+  padding: 0;
+}
+.navbar-links {
+  padding-left: 10px;
+  background-color: indianred;
+}
+li {
+  display: inline-block;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin: 1px;
+}

@@ -1,7 +1,11 @@
+import Navbar from './components/Navbar'
 
 function App() {
   return (
-   <h1>Golden Shoe</h1>
+    <div>
+      <h1>Golden Shoe</h1>
+      <Navbar />
+    </div>
   );
 }
 
