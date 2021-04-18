@@ -93,6 +93,11 @@ The page is designed so that questions are grouped into different sections and u
 This page will be implemented to reduce the number of customers needing to use the customer contact form as well as the customer helpline. This should also hopefully provide a better and clearer user experience for customer's using this website.
 The search bar will try to provide FAQ results for any question or topic typed in by the user.
 
+## Testing:
+
+To run tests enter `yarn test` into the command line.
+This will run through all tests for this application.
+
 ## Developer notes:
 
 ### Author
