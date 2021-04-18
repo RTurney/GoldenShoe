@@ -52,6 +52,7 @@ A user should be able to fill out their name and email address and then leave a 
 All sections of this form are required.
 Upon submission, the user should be taken to a page saying that a Golden Shoe employee will respond to them as soon as they are able. An email should be sent out upon a user clicking the submission form.
 
+
 ### Developer notes:
 
 #### Author
