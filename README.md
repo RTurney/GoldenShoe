@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Instructions:
 
-To clone this repository run:
+##### To clone this repository run:
 
 ```
 git@github.com:RTurney/GoldenShoe.git
@@ -20,7 +20,7 @@ git@github.com:RTurney/GoldenShoe.git
 
 In your command line terminal.
 
-To run this app, simply run:
+##### To run this app, simply run:
 
 ```
 yarn start
@@ -52,11 +52,17 @@ A user should be able to fill out their name and email address and then leave a 
 All sections of this form are required.
 Upon submission, the user should be taken to a page saying that a Golden Shoe employee will respond to them as soon as they are able. An email should be sent out upon a user clicking the submission form.
 
-Product page: 
+Product page:
 
-<img src="./assets/Product_page_V2.png">
+<img src="./assets/Product_page_V3.png">
 
-This will be the standard template for each product page. 
+This will be the standard template for each product page.
+There will be a large image in the middle of the product, as well as smaller, additional images on the left hand side of the product.
+Clicking on the smaller images will put them in the larger image slot.
+On the right hand side is the Product name, its price, its colour and whether or not the product is in stock.
+There is also a dropdown box for choosing the product size. This will be a required feature before adding it to the basket.
+There is also a drop down box for additional information. I have done this to save space on the page and minimise unnecessary details for the user.
+The product can be added to the basket by using the `Add to basket` button at the bottom of the page.
 
 ### Developer notes:
 
