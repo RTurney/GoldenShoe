@@ -3,13 +3,20 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 400px;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media screen and (max-width: 768px) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    height: 100px;
+  }
+}
+
+/* Phone screen */
+@media screen and (max-width: 360px) {
+  .App-logo {
+    height: 40px;
   }
 }
 

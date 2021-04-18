@@ -49,6 +49,10 @@ This will be the home page of the website. It will be accessible by clicking on 
 On this page is the navbar and the footer, which will be the same and accessible from every part of the website. Clicking on any of the icons should send you to that part of the website.
 The main body of this page will be a product image with two buttons, one will take you to the men's section and the other will take you to the women's section.
 
+Like all other pages of the website, this page will be responsive to a screen's resolution and will change accordingly, as shown below:
+
+<img src='./assets/Mobile_mainPage.png'>
+
 #### Contact form:
 
 <img src="./assets/Contact_form.png">
