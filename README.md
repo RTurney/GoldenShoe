@@ -51,7 +51,7 @@ The main body of this page will be a product image with two buttons, one will ta
 
 Like all other pages of the website, this page will be responsive to a screen's resolution and will change accordingly, as shown below:
 
-<img src='./assets/Mobile_mainPage.png' height='200'>
+<img src='./assets/Mobile_mainPage.png' height='500'>
 
 #### Contact form:
 
