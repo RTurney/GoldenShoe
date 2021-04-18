@@ -15,7 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 #### To clone this repository run:
 
 ```
-git@github.com:RTurney/GoldenShoe.git
+git clone git@github.com:RTurney/GoldenShoe.git
 ```
 
 In your command line terminal.
