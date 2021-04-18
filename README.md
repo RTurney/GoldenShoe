@@ -78,6 +78,14 @@ The user can click on the `Checkout` button to get taken to the checkout page.
 The user can also increase or remove item's from their basket easily using the `+` or `-` buttons in the basket overlay.
 This design is used to reduce the amount of pages needed during a user's shopping experience as well as the number of button presses between the homepage and completing a transaction.
 
+#### FAQs page:
+
+<img src="./assets/FAQs_page.png">
+
+This page will contain a number of answers to frequently asked questions.
+The page is designed so that questions are grouped into different sections and upon clicking on the drop down menu, a list of frequently asked questions as well as their answers will be shown.
+This page will be implemented to reduce the number of customers needing to use the customer contact form as well as the customer helpline. This should also hopefully provide a better and clearer user experience for customer's using this website.
+
 ## Developer notes:
 
 ### Author
