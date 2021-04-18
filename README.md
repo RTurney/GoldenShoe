@@ -64,6 +64,19 @@ There is also a dropdown box for choosing the product size. This will be a requi
 There is also a drop down box for additional information. I have done this to save space on the page and minimise unnecessary details for the user.
 The product can be added to the basket by using the `Add to basket` button at the bottom of the page.
 
+Basket:
+The basket feature should be accessible from any part of the website as an overlay that will appear under the basket button as demonstrated below:
+
+<img src="./assets/Empty_basket.png">
+
+Here the basket will display all current items in the user's basket as well as their quantity and total price, as demonstrated below:
+
+<img src="./assets/Basket_example.png">
+
+The user can click on the `Checkout` button to get taken to the checkout page.
+The user can also increase or remove item's from their basket easily using the `+` or `-` buttons in the basket overlay.
+This design is used to reduce the amount of pages needed during a user's shopping experience as well as the number of button presses between the homepage and completing a transaction.
+
 ### Developer notes:
 
 #### Author
