@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Instructions:
 
-##### To clone this repository run:
+#### To clone this repository run:
 
 ```
 git@github.com:RTurney/GoldenShoe.git
@@ -20,7 +20,7 @@ git@github.com:RTurney/GoldenShoe.git
 
 In your command line terminal.
 
-##### To run this app, simply run:
+#### To run this app, simply run:
 
 ```
 yarn start
@@ -35,7 +35,7 @@ This will run the website on your local device and can be accessed at [localhost
 
 ## Wireframes:
 
-Home page:
+#### Home page:
 
 <img src="./assets/Mainpage.png">
 
@@ -43,7 +43,7 @@ This will be the home page of the website. It will be accessible by clicking on 
 On this page is the navbar and the footer, which will be the same and accessible from every part of the website. Clicking on any of the icons should send you to that part of the website.
 The main body of this page will be a product image with two buttons, one will take you to the men's section and the other will take you to the women's section.
 
-Contact form:
+#### Contact form:
 
 <img src="./assets/Contact_form.png">
 
@@ -52,7 +52,7 @@ A user should be able to fill out their name and email address and then leave a 
 All sections of this form are required.
 Upon submission, the user should be taken to a page saying that a Golden Shoe employee will respond to them as soon as they are able. An email should be sent out upon a user clicking the submission form.
 
-Product page:
+#### Product page:
 
 <img src="./assets/Product_page_V3.png">
 
@@ -64,7 +64,8 @@ There is also a dropdown box for choosing the product size. This will be a requi
 There is also a drop down box for additional information. I have done this to save space on the page and minimise unnecessary details for the user.
 The product can be added to the basket by using the `Add to basket` button at the bottom of the page.
 
-Basket:
+#### Basket:
+
 The basket feature should be accessible from any part of the website as an overlay that will appear under the basket button as demonstrated below:
 
 <img src="./assets/Empty_basket.png">
@@ -77,9 +78,9 @@ The user can click on the `Checkout` button to get taken to the checkout page.
 The user can also increase or remove item's from their basket easily using the `+` or `-` buttons in the basket overlay.
 This design is used to reduce the amount of pages needed during a user's shopping experience as well as the number of button presses between the homepage and completing a transaction.
 
-### Developer notes:
+## Developer notes:
 
-#### Author
+### Author
 
 email: r.turney93@gmail.com
 
