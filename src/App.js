@@ -1,11 +1,8 @@
-import Navbar from './components/Navbar'
+import Header from './components/Header'
 
 function App() {
   return (
-    <div>
-      <h1>Golden Shoe</h1>
-      <Navbar />
-    </div>
+    <Header />
   );
 }
 

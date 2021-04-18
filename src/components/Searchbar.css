@@ -1,0 +1,9 @@
+.searchbar-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+}
+input {
+  width: 90%;
+  border-radius: 5%;
+}
