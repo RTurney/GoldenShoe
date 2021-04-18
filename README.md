@@ -85,6 +85,7 @@ This design is used to reduce the amount of pages needed during a user's shoppin
 This page will contain a number of answers to frequently asked questions.
 The page is designed so that questions are grouped into different sections and upon clicking on the drop down menu, a list of frequently asked questions as well as their answers will be shown.
 This page will be implemented to reduce the number of customers needing to use the customer contact form as well as the customer helpline. This should also hopefully provide a better and clearer user experience for customer's using this website.
+The search bar will try to provide FAQ results for any question or topic typed in by the user.
 
 ## Developer notes:
 
