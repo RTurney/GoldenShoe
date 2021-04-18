@@ -129,8 +129,9 @@ I should build this application using test-driven development, however due to ti
 
 So in order to do that I will need:
 
-- [ ] Someone should be able to access the main page
+- [x] Someone should be able to access the main page
 - [ ] Navigation bar
+- [ ] Searchbar
 - [ ] Footer component
 - [ ] Main body of the website
 - [ ] Ensure all components are accessible and look good on either mobile or desktop
