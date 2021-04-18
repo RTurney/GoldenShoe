@@ -33,6 +33,12 @@ This will run the website on your local device and can be accessed at [localhost
 
 ## User stories:
 
+```
+As a customer,
+So that I know I am on the right website,
+I should see the 'Golden shoe' displayed on the page.
+```
+
 ## Wireframes:
 
 #### Home page:
