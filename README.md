@@ -13,18 +13,21 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Instructions:
 
 To clone this repository run:
+
 ```
 git@github.com:RTurney/GoldenShoe.git
 ```
-In your command line terminal. 
 
-To run this app, simply run: 
+In your command line terminal.
+
+To run this app, simply run:
+
 ```
 yarn start
 ```
-In your command line terminal.
-This will run the website on your local device and can be accessed at [localhost:3000](http://localhost:3000/) in the browser of your choosing. 
 
+In your command line terminal.
+This will run the website on your local device and can be accessed at [localhost:3000](http://localhost:3000/) in the browser of your choosing.
 
 ## Features implemented:
 
@@ -32,10 +35,18 @@ This will run the website on your local device and can be accessed at [localhost
 
 ## Wireframes:
 
+Home page:
+
+<img src="./assets/Mainpage.png">
+
+This will be the home page of the website. It will be accessible by clicking on the 'Golden shoe' icon in the top left corner of the page anywhere from the website.
+On this page is the navbar and the footer, which will be the same and accessible from every part of the website. Clicking on any of the icons should send you to that part of the website.
+The main body of this page will be a product image with two buttons, one will take you to the men's section and the other will take you to the women's section.
 
 ### Developer notes:
 
 #### Author
+
 email: r.turney93@gmail.com
 
 github: https://github.com/RTurney
