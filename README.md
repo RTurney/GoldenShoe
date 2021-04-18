@@ -39,6 +39,24 @@ So that I know I am on the right website,
 I should see the 'Golden shoe' displayed on the page.
 ```
 
+```
+As a customer,
+So that I can navigate the website,
+I should be able to use the navbar on any page.
+```
+
+```
+As a customer,
+So that I can use this website on my phone,
+The website should be rendered correctly on mobile devices.
+```
+
+```
+As a customer,
+So that I can use this website on my ipad,
+The website should be rendered correctly on tablet devices.
+```
+
 ## Wireframes:
 
 #### Home page:
