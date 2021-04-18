@@ -52,6 +52,11 @@ A user should be able to fill out their name and email address and then leave a 
 All sections of this form are required.
 Upon submission, the user should be taken to a page saying that a Golden Shoe employee will respond to them as soon as they are able. An email should be sent out upon a user clicking the submission form.
 
+Product page: 
+
+<img src="./assets/Product_page_V2.png">
+
+This will be the standard template for each product page. 
 
 ### Developer notes:
 
