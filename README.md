@@ -92,11 +92,11 @@ There is also a dropdown box for choosing the product size. This will be a requi
 There is also a drop down box for additional information. I have done this to save space on the page and minimise unnecessary details for the user.
 The product can be added to the basket by using the `Add to basket` button at the bottom of the page.
 
-Additionally like all other pages of the website, this one will be redesigned for mobile users as well. As shown below: 
+Additionally like all other pages of the website, this one will be redesigned for mobile users as well. As shown below:
 
-<img src="./assets/Product_page_mobile.png">
+<img src="./assets/Product_page_mobile.png" height='500'>
 
-This will require the page being scrollable. 
+This will require the page being scrollable.
 
 #### Basket:
 
