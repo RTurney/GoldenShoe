@@ -5,17 +5,19 @@
   position: absolute;
   bottom: 0;
 }
-.footer-links {
+.footer-links-container {
   padding-left: 10px;
   background-color: indianred;
   margin-bottom: 5px;
+  text-align: center;
 }
-a {
+.footer-link {
   display: inline-block;
   padding: 5px;
   border-style: solid;
   border-width: 1px;
-  margin: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
   color: black;
   border-color: black;
 }

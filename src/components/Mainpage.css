@@ -1,0 +1,23 @@
+.mainpage-container {
+  display: flex;
+  padding-left: 25%;
+  padding-top: 30%;
+}
+
+.buttons-container {
+  justify-items: start;
+}
+
+button {
+  margin: 5px;
+  font-size: x-large;
+}
+
+.mens-link {
+  padding-bottom: 35%;
+  padding-left: 35%;
+}
+
+.womens-link {
+  padding-left: 20%;
+}
