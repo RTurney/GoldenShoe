@@ -1,11 +1,11 @@
 .mainpage-container {
   display: flex;
-  padding-left: 25%;
-  padding-top: 30%;
 }
 
 .buttons-container {
   justify-items: start;
+  position: fixed;
+  transform: translate(100%, 50%);
 }
 
 button {
@@ -14,10 +14,61 @@ button {
 }
 
 .mens-link {
-  padding-bottom: 35%;
-  padding-left: 35%;
+  padding-bottom: 40%;
 }
 
 .womens-link {
-  padding-left: 20%;
+  transform: translate(-10%, 0%);
+}
+
+@media screen and (min-width: 375px) {
+  .buttons-container {
+    padding-left: 3%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .buttons-container {
+    padding-left: 0%;
+  }
+  button {
+    font-size: xxx-large;
+    padding: 30px;
+  }
+
+  .mens-link {
+    transform: translate(15%, 0%);
+  }
+
+  .womens-link {
+    transform: translate(4%, 0%);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mainpage-container {
+    display: flex;
+    flex-direction: row;
+  }
+  button {
+    font-size: xxx-large;
+    padding: 30px;
+  }
+
+  .buttons-container {
+    width: 100%;
+    justify-items: center;
+    transform: translate(25%, 110%);
+    display: flex;
+  }
+
+  .mens-link {
+    padding-bottom: 0%;
+    padding-right: 10%;
+    transform: translate(0%);
+  }
+
+  .womens-link {
+    transform: translate(0%);
+  }
 }
