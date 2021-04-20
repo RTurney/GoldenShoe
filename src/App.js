@@ -15,7 +15,7 @@ function App() {
             <Route path='/' exact component={ () => <Home /> } />
             <Route path='/' exact component={ () => <Home /> } />
             <Route path='/' exact component={ () => <Home /> } />
-            <Route path = '/contact' exact component={ () => <Contact /> } />
+            <Route path ='/contact' exact component={ () => <Contact /> } />
           </Switch>
         <Footer />
       </Router>
