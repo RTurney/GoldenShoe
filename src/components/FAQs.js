@@ -1,6 +1,7 @@
 import React from 'react';
 import Accordian from './Accordian';
 import './FAQs.css'
+
 function FAQs() {
 
 

@@ -1,11 +1,14 @@
 .mainpage-container {
   display: flex;
+  margin-bottom: 10%;
+  background-image: url("./shoes.jpeg");
+  height: 90vh;
 }
 
 .buttons-container {
   justify-items: start;
   position: fixed;
-  transform: translate(100%, 50%);
+  transform: translate(21vh, 20vh);
 }
 
 button {
@@ -30,18 +33,11 @@ button {
 @media screen and (min-width: 768px) {
   .buttons-container {
     padding-left: 0%;
+    transform: translate(30vh, 20vh);
   }
   button {
     font-size: xxx-large;
     padding: 30px;
-  }
-
-  .mens-link {
-    transform: translate(15%, 0%);
-  }
-
-  .womens-link {
-    transform: translate(4%, 0%);
   }
 }
 
@@ -49,6 +45,7 @@ button {
   .mainpage-container {
     display: flex;
     flex-direction: row;
+    margin-bottom: 15vh;
   }
   button {
     font-size: xxx-large;
@@ -58,7 +55,7 @@ button {
   .buttons-container {
     width: 100%;
     justify-items: center;
-    transform: translate(25%, 110%);
+    transform: translate(32vh, 25vh);
     display: flex;
   }
 
@@ -70,14 +67,5 @@ button {
 
   .womens-link {
     transform: translate(0%);
-  }
-}
-
-@media screen and (min-width: 1391px) {
-  .buttons-container {
-    transform: translate(25%, 200%);
-  }
-  .mens-link {
-    padding-right: 20%;
   }
 }
