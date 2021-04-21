@@ -158,6 +158,16 @@ So in order to do that I will need:
 - [x] Will need all the above text fields to be required for the submit button to work
 - [x] Will need a confirmation that message was sent
 - [x] Should have an email sent to my own email address using the form with all the details above, to emulate how it would work in the business setting.
+- [x] Looks good across multiple screen sizes
+
+3. Final step before I run out of time will be to enact an FAQs page:
+
+- [ ] New page accessible by footer
+- [ ] Has a topics header
+- [ ] Each topic has drop down menu
+- [ ] Drop down menu pushed the rest of the page down
+- [ ] Each drop down menu will have text/ solutions
+- [ ] Looks good across multiple screen sizes
 
 ### Author
 

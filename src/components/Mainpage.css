@@ -72,3 +72,12 @@ button {
     transform: translate(0%);
   }
 }
+
+@media screen and (min-width: 1391px) {
+  .buttons-container {
+    transform: translate(25%, 200%);
+  }
+  .mens-link {
+    padding-right: 20%;
+  }
+}
