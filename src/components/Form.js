@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { send } from 'emailjs-com'
+import './Form.css'
 
 function Form() {
     const [toSend, setToSend] = useState({
@@ -31,27 +32,36 @@ function Form() {
     return (
         <form onSubmit={onSubmit}>
                 <input
+                    className='name-input'
                     type='text'
                     name='from_name'
-                    placeholder='from name'
+                    placeholder='Your name'
                     value={toSend.from_name}
                     onChange={handleChange}
+                    required='true'
                 />
+                <br />
                 <input
-                    type='text'
-                    name='message'
-                    placeholder='Your message'
-                    value={toSend.message}
-                    onChange={handleChange}
-                />
-                <input
-                    type='text'
+                    className='email-input'
+                    type='email'
                     name='reply_to'
                     placeholder='Your email'
                     value={toSend.reply_to}
                     onChange={handleChange}
+                    required='true'
                 />
-                <button type='submit'>Submit</ button>
+                <br />
+                <textarea
+                    className='message-input'
+                    type='text'
+                    name='message'
+                    placeholder='Your message...'
+                    value={toSend.message}
+                    onChange={handleChange}
+                    required='true'
+                />
+                <br />
+                <button className='contact-submit-button' type='submit'>Submit</ button>
                 </ form>
     )
 }

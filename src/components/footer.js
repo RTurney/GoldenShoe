@@ -7,7 +7,7 @@ class Footer extends Component {
         return (
             <nav className="FooterItems">
                 <div className='footer-links-container'>
-                    <Link to='/' className='footer-link'>Contact</Link>
+                    <Link to='/contact' className='footer-link'>Contact Us</Link>
                     <Link to='/' className='footer-link'>FAQs</Link>
                     <Link to='/' className='footer-link'>About us</Link>
                 </ div>

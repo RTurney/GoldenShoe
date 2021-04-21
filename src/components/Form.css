@@ -1,0 +1,92 @@
+.name-input {
+  width: 50%;
+  height: 20px;
+  margin: 5px;
+}
+
+.email-input {
+  width: 50%;
+  height: 20px;
+  margin: 5px;
+}
+
+.message-input {
+  padding-bottom: 100px;
+  margin: 5px;
+  width: 70%;
+  height: 40px;
+  border-radius: 0%;
+  border-width: 2px;
+  border-style: solid;
+}
+
+@media screen and (min-width: 768px) {
+  .name-input {
+    width: 50%;
+    height: 50px;
+    margin: 5px;
+    margin-top: 40px;
+    font-size: large;
+  }
+
+  .email-input {
+    width: 50%;
+    height: 50px;
+    margin: 5px;
+    font-size: large;
+  }
+
+  .message-input {
+    height: 10px;
+    padding-bottom: 200px;
+    margin: 5px;
+    font-size: large;
+    text-align: start;
+  }
+
+  .contact-submit-button {
+    font-size: x-large;
+    padding: 20px;
+    margin-top: 1px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 768px) {
+  .name-input {
+    width: 40%;
+    height: 50px;
+    margin: 5px;
+    margin-top: 0px;
+    font-size: medium;
+  }
+
+  .email-input {
+    width: 40%;
+    height: 50px;
+    margin: 5px;
+    font-size: medium;
+  }
+
+  .message-input {
+    height: 10px;
+    padding-bottom: 200px;
+    margin: 5px;
+    font-size: large;
+    text-align: start;
+  }
+
+  .contact-submit-button {
+    font-size: x-large;
+    padding: 15px;
+  }
+
+  form {
+    margin-top: 0;
+  }
+}
+
+input {
+  border-radius: 0%;
+  border-width: 2px;
+  border-style: solid;
+}

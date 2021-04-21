@@ -10,6 +10,7 @@
   background-color: indianred;
   margin-bottom: 5px;
   text-align: center;
+  margin-bottom: 0;
 }
 .footer-link {
   display: inline-block;
@@ -25,7 +26,9 @@
 @media screen and (min-width: 768px) {
   .footer-link {
     display: inline-block;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
     border-style: solid;
     border-width: 1px;
     margin-left: 20px;
@@ -33,5 +36,6 @@
     color: black;
     border-color: black;
     font-size: x-large;
+    margin-bottom: 0;
   }
 }
