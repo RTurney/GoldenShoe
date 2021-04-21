@@ -12,9 +12,6 @@ function App() {
         <Header />
           <Switch>
             <Route path='/' exact component={ () => <Home /> } />
-            <Route path='/' exact component={ () => <Home /> } />
-            <Route path='/' exact component={ () => <Home /> } />
-            <Route path='/' exact component={ () => <Home /> } />
             <Route path ='/contact' exact component={ () => <Contact /> } />
           </Switch>
         <Footer />
