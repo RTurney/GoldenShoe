@@ -31,6 +31,32 @@ This will run the website on your local device and can be accessed at [localhost
 
 ## Features implemented:
 
+At it's current implication, this application has 3 pages: main page, 'contact us' page and a FAQs page.
+
+The main page is responsive to different screen sizes:
+
+<img src='./src/assets/Computer_mainpage.png'>
+<img src='./src/assets/Ipad_mainpage.png'>
+<img src='./src/assets/Ipad_mainpage_rotated.png'>
+<img src='./src/assets/Mobile_mainpage.png'>
+
+The contact form page requires that users include their name, email address and a message before being submitted.
+When a message is submitted, it is sent directly to r.turney93@gmail.com utilising EmailJS.
+If a message was successful the user will get a confirmation message, however if the message does not work, the user will be notified.
+
+Again this page is responsive to separate screen sizes:
+
+<img src='./src/assets/Contact_us_mobile.png'>
+<img src='./src/assets/Contact_us_Ipad.png'>
+
+The FAQ page has collapsable divs which allow users to open and close solutions that you don't need.
+Again like all other pages, this was built 'mobile first' and is responsive to the screen size.
+
+<img src='./src/assets/FAQ_closed_Ipad.png'>
+<img src='./src/assets/FAQ_open_Ipad.png'>
+<img src='./src/assets/FAQ_closed_Mobile.png'>
+<img src='./src/assets/FAQ_open_Mobile.png'>
+
 ## User stories:
 
 ```
@@ -63,11 +89,41 @@ So that I can get ahold of someone from the Golden Shoe,
 I would like to be able to access a contact page.
 ```
 
+```
+As a customer,
+So that I can specifically state what my issue is,
+I would like to be able to send a message.
+```
+
+```
+As a customer,
+So that the customer service team can email me back,
+I would like to be able to send them my email address.
+```
+
+```
+As a member of the customer service team,
+So that I can hear from our customers,
+I would like to receive an email with the details of the customer's issues.
+```
+
+```
+As a customer,
+So that I can find all the information I need,
+I would like to be able to access a FAQ page.
+```
+
+```
+As a customer,
+So that I only see the solution I need,
+I would like to be able to collapse FAQs I don't need.
+```
+
 ## Wireframes:
 
 #### Home page:
 
-<img src="./assets/Mainpage.png">
+<img src="./src/assets/Mainpage_computer_wireframe.png">
 
 This will be the home page of the website. It will be accessible by clicking on the 'Golden shoe' icon in the top left corner of the page anywhere from the website.
 On this page is the navbar and the footer, which will be the same and accessible from every part of the website. Clicking on any of the icons should send you to that part of the website.
@@ -75,11 +131,11 @@ The main body of this page will be a product image with two buttons, one will ta
 
 Like all other pages of the website, this page will be responsive to a screen's resolution and will change accordingly, as shown below:
 
-<img src='./assets/Mobile_mainPage.png' height='500'>
+<img src='./src/assets/Mobile_mainPage_wireframe.png' height='500'>
 
 #### Contact form:
 
-<img src="./assets/Contact_form.png">
+<img src="./src/assets/Contact_form.png">
 
 This will be the contact form page of the website.
 A user should be able to fill out their name and email address and then leave a message as to what they are contacting the company about.
@@ -88,7 +144,7 @@ Upon submission, the user should be taken to a page saying that a Golden Shoe em
 
 #### Product page:
 
-<img src="./assets/Product_page_V3.png">
+<img src="./src/assets/Product_page_V3.png">
 
 This will be the standard template for each product page.
 There will be a large image in the middle of the product, as well as smaller, additional images on the left hand side of the product.
@@ -100,7 +156,7 @@ The product can be added to the basket by using the `Add to basket` button at th
 
 Additionally like all other pages of the website, this one will be redesigned for mobile users as well. As shown below:
 
-<img src="./assets/Product_page_mobile.png" height='500'>
+<img src="./src/assets/Product_page_mobile_wireframe.png" height='500'>
 
 This will require the page being scrollable.
 
@@ -108,11 +164,11 @@ This will require the page being scrollable.
 
 The basket feature should be accessible from any part of the website as an overlay that will appear under the basket button as demonstrated below:
 
-<img src="./assets/Empty_basket.png">
+<img src="./src/assets/Empty_basket.png">
 
 Here the basket will display all current items in the user's basket as well as their quantity and total price, as demonstrated below:
 
-<img src="./assets/Basket_example.png">
+<img src="./src/assets/Basket_example.png">
 
 The user can click on the `Checkout` button to get taken to the checkout page.
 The user can also increase or remove item's from their basket easily using the `+` or `-` buttons in the basket overlay.
@@ -120,7 +176,7 @@ This design is used to reduce the amount of pages needed during a user's shoppin
 
 #### FAQs page:
 
-<img src="./assets/FAQs_page.png">
+<img src="./src/assets/FAQs_page_wireframe.png">
 
 This page will contain a number of answers to frequently asked questions.
 The page is designed so that questions are grouped into different sections and upon clicking on the drop down menu, a list of frequently asked questions as well as their answers will be shown.
@@ -131,6 +187,8 @@ The search bar will try to provide FAQ results for any question or topic typed i
 
 To run tests enter `yarn test` into the command line.
 This will run through all tests for this application.
+
+Unfortunately due to time constraints and a lack of knowledge in end-to-end testing for React, this application was not built through Test-driven development.
 
 ## Developer notes:
 
@@ -162,12 +220,11 @@ So in order to do that I will need:
 
 3. Final step before I run out of time will be to enact an FAQs page:
 
-- [ ] New page accessible by footer
-- [ ] Has a topics header
-- [ ] Each topic has drop down menu
-- [ ] Drop down menu pushed the rest of the page down
-- [ ] Each drop down menu will have text/ solutions
-- [ ] Looks good across multiple screen sizes
+- [x] New page accessible by footer
+- [x] Each topic has drop down menu
+- [x] Drop down menu pushed the rest of the page down
+- [x] Each drop down menu will have text/ solutions
+- [x] Looks good across multiple screen sizes
 
 ### Author
 
