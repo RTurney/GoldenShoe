@@ -7,9 +7,9 @@ class Navbar extends Component {
         return (
             <nav className="NavbarItems">
                 <div className='navbar-links'>
-                    <Link to='/contact'>Categories</Link>
+                    <Link to='/'>Categories</Link>
                     <Link to='/'>My Account</Link>
-                    <Link to='/'>Help</Link>
+                    <Link to='/Contact'>Contact Us</Link>
                     <Link to='/'>Basket</Link>
                 </ div>
             </nav>

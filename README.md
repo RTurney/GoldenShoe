@@ -157,7 +157,6 @@ So in order to do that I will need:
 - [x] Need a submit button
 - [ ] Will need all the above text fields to be required for the submit button to work
 - [ ] Will need a second page with a confirmation of message
-- ~~[ ] Will need a database to store all this information~~
 - [x] Should have an email sent to my own email address using the form with all the details above, to emulate how it would work in the business setting.
 
 ### Author

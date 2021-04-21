@@ -6,7 +6,7 @@
   padding-left: 10px;
   background-color: indianred;
 }
-Link {
+a {
   display: inline-block;
   padding: 5px;
   border-style: solid;
@@ -14,10 +14,11 @@ Link {
   margin: 1px;
   color: black;
   border-color: black;
+  font-size: smaller;
 }
 
 @media screen and (min-width: 768px) {
-  Link {
+  a {
     display: inline-block;
     padding: 5px;
     border-style: solid;
