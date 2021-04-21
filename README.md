@@ -155,7 +155,7 @@ So in order to do that I will need:
 - [x] Will need email input
 - [x] Will need a text input field
 - [x] Need a submit button
-- [ ] Will need all the above text fields to be required for the submit button to work
+- [x] Will need all the above text fields to be required for the submit button to work
 - [ ] Will need a second page with a confirmation of message
 - [x] Should have an email sent to my own email address using the form with all the details above, to emulate how it would work in the business setting.
 

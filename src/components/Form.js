@@ -9,6 +9,8 @@ function Form() {
         reply_to: '',
     });
     
+    const [confirmation, setConfirmation] = useState('Let us know if you are having any issues or comments!')
+
     const onSubmit = (e) => {
         e.preventDefault();
         send(
@@ -19,9 +21,11 @@ function Form() {
     )
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
+            setConfirmation('Message Sent!');
         })
         .catch((err) => {
             console.log('FAILED...', err);
+            setConfirmation('Error, message not sent');
         });
     };
     
@@ -31,6 +35,7 @@ function Form() {
 
     return (
         <form onSubmit={onSubmit}>
+                <p className='confirmation-message'>{confirmation}</p>
                 <input
                     className='name-input'
                     type='text'
@@ -38,7 +43,7 @@ function Form() {
                     placeholder='Your name'
                     value={toSend.from_name}
                     onChange={handleChange}
-                    required='true'
+                    required={true}
                 />
                 <br />
                 <input
@@ -48,7 +53,7 @@ function Form() {
                     placeholder='Your email'
                     value={toSend.reply_to}
                     onChange={handleChange}
-                    required='true'
+                    required={true}
                 />
                 <br />
                 <textarea
@@ -58,7 +63,7 @@ function Form() {
                     placeholder='Your message...'
                     value={toSend.message}
                     onChange={handleChange}
-                    required='true'
+                    required={true}
                 />
                 <br />
                 <button className='contact-submit-button' type='submit'>Submit</ button>

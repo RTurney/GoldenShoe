@@ -20,6 +20,11 @@
   border-style: solid;
 }
 
+.confirmation-message {
+  margin-left: 5px;
+  font-size: small;
+}
+
 @media screen and (min-width: 768px) {
   .name-input {
     width: 50%;
@@ -48,6 +53,10 @@
     font-size: x-large;
     padding: 20px;
     margin-top: 1px;
+  }
+
+  .confirmation-message {
+    font-size: medium;
   }
 }
 
