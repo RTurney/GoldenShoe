@@ -57,6 +57,12 @@ So that I can use this website on my ipad,
 The website should be rendered correctly on tablet devices.
 ```
 
+```
+As a customer,
+So that I can get ahold of someone from the Golden Shoe,
+I would like to be able to access a contact page.
+```
+
 ## Wireframes:
 
 #### Home page:
@@ -140,19 +146,19 @@ So in order to do that I will need:
 - [x] Searchbar
 - [x] Footer component
 - [x] Main body of the website
-- [ ] Ensure all components are accessible and look good on either mobile or desktop
+- [x] Ensure all components are accessible and look good on either mobile or desktop
 
 2. Second step will be to have a contact form for users to contact Golden Shoe
 
-- [ ] New page accessible through the navbar/footer of the main page
-- [ ] Will need a user name input
-- [ ] Will need email input
-- [ ] Will need a text input field
-- [ ] Need a submit button
+- [x] New page accessible through the navbar/footer of the main page
+- [x] Will need a user name input
+- [x] Will need email input
+- [x] Will need a text input field
+- [x] Need a submit button
 - [ ] Will need all the above text fields to be required for the submit button to work
 - [ ] Will need a second page with a confirmation of message
-- [ ] Will need a database to store all this information
-- [ ] Should have an email sent to my own email address using the form with all the details above, to emulate how it would work in the business setting.
+- ~~[ ] Will need a database to store all this information~~
+- [x] Should have an email sent to my own email address using the form with all the details above, to emulate how it would work in the business setting.
 
 ### Author
 
