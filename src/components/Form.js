@@ -21,11 +21,12 @@ function Form() {
     )
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
-            setConfirmation('Message Sent!');
+            setConfirmation('Message Sent! A member of our team will get back to you as soon as possible.');
+            setToSend({ from_name: '', message: '', reply_to: ''})
         })
         .catch((err) => {
             console.log('FAILED...', err);
-            setConfirmation('Error, message not sent');
+            setConfirmation('Error, message not sent. Please ensure all fields are filled correctly and try again.');
         });
     };
     
