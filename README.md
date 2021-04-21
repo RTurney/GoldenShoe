@@ -63,7 +63,7 @@ Mobile:
 
 Ipad:
 
-<img src='./src/assets/Contact_us_Ipad.png' height='500'>
+<img src='./src/assets/Contact_us_ipad.png' height='500'>
 
 The FAQ page has collapsable divs which allow users to open and close solutions that you don't need.
 Again like all other pages, this was built 'mobile first' and is responsive to the screen size.
