@@ -36,15 +36,19 @@ At it's current implication, this application has 3 pages: main page, 'contact u
 The main page is responsive to different screen sizes:
 
 Desktop: 
+
 <img src='./src/assets/Computer_mainpage.png' height='500'>
 
 Ipad:
+
 <img src='./src/assets/Ipad_mainpage.png' height='500'>
 
 Ipad rotated:
+
 <img src='./src/assets/Ipad_mainpage_rotated.png' height='500'>
 
 Mobile:
+
 <img src='./src/assets/Mobile_mainpage.png' height='500'>
 
 The contact form page requires that users include their name, email address and a message before being submitted.
@@ -54,19 +58,23 @@ If a message was successful the user will get a confirmation message, however if
 Again this page is responsive to separate screen sizes:
 
 Mobile:
+
 <img src='./src/assets/Contact_us_mobile.png' height='500'>
 
 Ipad:
+
 <img src='./src/assets/Contact_us_Ipad.png' height='500'>
 
 The FAQ page has collapsable divs which allow users to open and close solutions that you don't need.
 Again like all other pages, this was built 'mobile first' and is responsive to the screen size.
 
 Ipad: 
+
 <img src='./src/assets/FAQ_closed_Ipad.png' height='500'>
 <img src='./src/assets/FAQ_open_Ipad.png' height='500'>
 
 Mobile: 
+
 <img src='./src/assets/FAQ_closed_Mobile.png' height='500'>
 <img src='./src/assets/FAQ_open_Mobile.png' height='500'>
 
