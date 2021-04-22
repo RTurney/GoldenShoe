@@ -1,7 +1,7 @@
 .mainpage-container {
   display: flex;
   margin-bottom: 5vh;
-  background-image: url("./shoes.jpeg");
+  background-image: url("../assets/shoes.jpeg");
   height: 90vh;
 }
 

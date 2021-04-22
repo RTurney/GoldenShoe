@@ -1,7 +1,7 @@
 import Navbar from './Navbar';
 import SearchBar from './SearchBar';
 import React, { Component } from 'react';
-import logo from './GoldenShoe.png';
+import logo from '../assets/GoldenShoe.png';
 import { Link } from 'react-router-dom';
 import './Header.css';
 
