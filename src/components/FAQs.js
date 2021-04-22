@@ -3,8 +3,6 @@ import Accordian from './Accordian';
 import './FAQs.css';
 
 export default function FAQs() {
-
-
     return (
         <div className='FAQ-page'>
             <h1>Frequently Asked Questions</h1>

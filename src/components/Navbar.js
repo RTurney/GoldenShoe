@@ -2,8 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import {Link} from 'react-router-dom';
 
-export default function Navbar() {
-        
+export default function Navbar() {   
     return (
             <nav className="NavbarItems">
                 <div className='navbar-links'>
