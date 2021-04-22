@@ -1,9 +1,9 @@
 import React from 'react';
 import Form from './Form';
-import './Contact.css'
+import './Contact.css';
 
 
-function Contact() {
+export default function Contact() {
 
         return (
             <div className='contact-page'>
@@ -11,6 +11,4 @@ function Contact() {
                 <Form />
             </div>
         )
-}
-
-export default Contact;
+};

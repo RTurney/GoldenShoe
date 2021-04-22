@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Mainpage.css'
+import './Mainpage.css';
 
 class Mainpage extends Component {
     render () {
@@ -16,6 +16,6 @@ class Mainpage extends Component {
             </div>
         )
     }
-}
+};
 
 export default Mainpage;

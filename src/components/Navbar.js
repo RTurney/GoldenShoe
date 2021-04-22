@@ -1,20 +1,17 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Navbar.css';
 import {Link} from 'react-router-dom';
 
-class Navbar extends Component {
-    render () {
-        return (
+export default function Navbar() {
+        
+    return (
             <nav className="NavbarItems">
                 <div className='navbar-links'>
-                    <Link to='/'>Categories</Link>
-                    <Link to='/'>My Account</Link>
-                    <Link to='/'>Help</Link>
-                    <Link to='/'>Basket</Link>
+                    <Link to='/' className='navbar-buttons'>Categories</Link>
+                    <Link to='/' className='navbar-buttons'>My Account</Link>
+                    <Link to='/' className='navbar-buttons'>Help</Link>
+                    <Link to='/' className='navbar-buttons'>Basket</Link>
                 </ div>
             </nav>
         )
-    }
-}
-
-export default Navbar;
+};

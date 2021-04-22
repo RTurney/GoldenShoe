@@ -15,5 +15,6 @@ input {
     width: 70%;
     border-radius: 5%;
     height: 25px;
+    font-size: x-large;
   }
 }

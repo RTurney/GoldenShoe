@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 
 import "./Accordian.css";
 
-function Accordion(props) {
+export default function Accordion(props) {
 
   const [setActive, setActiveState] = useState("");
 
@@ -35,5 +35,3 @@ function Accordion(props) {
     </div>
   );
 }
-
-export default Accordion;

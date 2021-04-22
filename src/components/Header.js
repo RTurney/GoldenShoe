@@ -1,9 +1,9 @@
 import Navbar from './Navbar';
 import SearchBar from './SearchBar';
 import React, { Component } from 'react';
-import logo from './GoldenShoe.png'
-import { Link } from 'react-router-dom'
-import './Header.css'
+import logo from './GoldenShoe.png';
+import { Link } from 'react-router-dom';
+import './Header.css';
 
 class Header extends Component {
     render() {
@@ -19,6 +19,6 @@ class Header extends Component {
             </div>
         )
     }
-}
+};
 
 export default Header;

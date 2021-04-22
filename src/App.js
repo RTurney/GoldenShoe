@@ -4,9 +4,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import FAQs from './components/FAQs'
+import FAQs from './components/FAQs';
 
-function App() {
+export default function App() {
   return (
     <div>
       <Router>
@@ -22,4 +22,3 @@ function App() {
   );
 }
 
-export default App;

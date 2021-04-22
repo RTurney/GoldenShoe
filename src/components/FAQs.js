@@ -1,8 +1,8 @@
 import React from 'react';
 import Accordian from './Accordian';
-import './FAQs.css'
+import './FAQs.css';
 
-function FAQs() {
+export default function FAQs() {
 
 
     return (
@@ -25,5 +25,3 @@ function FAQs() {
         </div>
     )
 };
-
-export default FAQs;

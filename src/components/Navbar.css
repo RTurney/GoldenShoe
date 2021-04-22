@@ -6,25 +6,26 @@
   padding-left: 10px;
   background-color: indianred;
 }
-a {
+.navbar-buttons {
   display: inline-block;
   padding: 5px;
   border-style: solid;
   border-width: 1px;
   margin: 1px;
-  color: black;
+  color: indianred;
   border-color: black;
+  background-color: white;
   font-size: smaller;
+  text-decoration: auto;
 }
 
 @media screen and (min-width: 768px) {
-  a {
+  .navbar-buttons {
     display: inline-block;
     padding: 5px;
     border-style: solid;
     border-width: 1px;
     margin: 1px;
-    color: black;
     border-color: black;
     font-size: x-large;
     margin-left: 10px;
