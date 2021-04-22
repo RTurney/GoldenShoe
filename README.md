@@ -217,6 +217,8 @@ This will run through all tests for this application.
 
 Unfortunately due to time constraints and a lack of knowledge in end-to-end testing for React, this application was not built through Test-driven development.
 
+At its current implementation, testing will only check that the app renders and will give a poor coverage.
+
 ## Developer notes:
 
 I should build this application using test-driven development, however due to time constraints and limited experience with React, I may have to just build the project as I go.

@@ -8,7 +8,8 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
 });
 
-it('displays the name of the website', () => {
-  render(<App />);
-  expect(screen.getByText('Golden Shoe')).toBeInTheDocument();
-});
+// Outdated test
+// it('displays the name of the website', () => {
+//   render(<App />);
+//   expect(screen.getByText('Golden Shoe')).toBeInTheDocument();
+// });
