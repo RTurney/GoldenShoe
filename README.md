@@ -35,19 +35,19 @@ At it's current implication, this application has 3 pages: main page, 'contact u
 
 The main page is responsive to different screen sizes:
 
-Desktop: 
+#### Desktop:
 
 <img src='./src/assets/Computer_mainpage.png' height='500'>
 
-Ipad:
+#### Ipad:
 
 <img src='./src/assets/Ipad_mainpage.png' height='500'>
 
-Ipad rotated:
+#### Ipad rotated:
 
 <img src='./src/assets/Ipad_mainpage_rotated.png' height='500'>
 
-Mobile:
+#### Mobile:
 
 <img src='./src/assets/Mobile_mainpage.png' height='500'>
 
@@ -57,23 +57,23 @@ If a message was successful the user will get a confirmation message, however if
 
 Again this page is responsive to separate screen sizes:
 
-Mobile:
+#### Mobile:
 
 <img src='./src/assets/Contact_us_mobile.png' height='500'>
 
-Ipad:
+#### Ipad:
 
 <img src='./src/assets/Contact_us_ipad.png' height='500'>
 
 The FAQ page has collapsable divs which allow users to open and close solutions that you don't need.
 Again like all other pages, this was built 'mobile first' and is responsive to the screen size.
 
-Ipad: 
+#### Ipad:
 
 <img src='./src/assets/FAQ_closed_Ipad.png' height='500'>
 <img src='./src/assets/FAQ_open_Ipad.png' height='500'>
 
-Mobile: 
+#### Mobile:
 
 <img src='./src/assets/FAQ_closed_Mobile.png' height='500'>
 <img src='./src/assets/FAQ_open_Mobile.png' height='500'>
@@ -120,6 +120,12 @@ I would like to be able to send a message.
 As a customer,
 So that the customer service team can email me back,
 I would like to be able to send them my email address.
+```
+
+```
+As a customer,
+So that I can be addressed properly,
+I would like to be able to send my name.
 ```
 
 ```
