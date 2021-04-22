@@ -21,12 +21,6 @@
 
 @media screen and (min-width: 768px) {
   .navbar-buttons {
-    display: inline-block;
-    padding: 5px;
-    border-style: solid;
-    border-width: 1px;
-    margin: 1px;
-    border-color: black;
     font-size: x-large;
     margin-left: 10px;
     margin-right: 10px;

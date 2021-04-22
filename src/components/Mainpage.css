@@ -47,10 +47,6 @@ button {
     flex-direction: row;
     margin-bottom: 5vh;
   }
-  button {
-    font-size: xxx-large;
-    padding: 30px;
-  }
 
   .buttons-container {
     width: 100vh;

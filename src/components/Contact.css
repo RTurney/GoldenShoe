@@ -6,3 +6,15 @@
 .contact-page {
   margin-bottom: 50px;
 }
+
+@media screen and (min-width: 768px) {
+  .contact-header {
+    font-size: xxx-large;
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 768px) {
+  .contact-header {
+    margin-bottom: 1%;
+  }
+}

@@ -25,26 +25,33 @@
   font-size: small;
 }
 
+.success-message {
+  margin-left: 5px;
+  font-size: small;
+  color: green;
+}
+
+.fail-message {
+  margin-left: 5px;
+  font-size: small;
+  color: red;
+}
+
 @media screen and (min-width: 768px) {
   .name-input {
-    width: 50%;
     height: 50px;
-    margin: 5px;
     margin-top: 40px;
     font-size: large;
   }
 
   .email-input {
-    width: 50%;
     height: 50px;
-    margin: 5px;
     font-size: large;
   }
 
   .message-input {
     height: 10px;
     padding-bottom: 200px;
-    margin: 5px;
     font-size: large;
     text-align: start;
   }
@@ -56,7 +63,15 @@
   }
 
   .confirmation-message {
-    font-size: medium;
+    font-size: large;
+  }
+
+  .success-message {
+    font-size: large;
+  }
+
+  .fail-message {
+    font-size: large;
   }
 }
 

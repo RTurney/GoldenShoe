@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
-import { send } from 'emailjs-com'
-import './Form.css'
+import { send } from 'emailjs-com';
+import './Form.css';
 
-function Form() {
+export default function Form() {
     const [toSend, setToSend] = useState({
         from_name: '',
         message: '',
         reply_to: '',
     });
     
-    const [confirmation, setConfirmation] = useState('Let us know if you are having any issues or comments!')
+    const [confirmation, setConfirmation] = useState('Let us know if you are having any issues or comments!');
+
+    const [confirmationCss, setConfirmationCSS] = useState('confirmation-message');
 
     const onSubmit = (e) => {
         e.preventDefault();
@@ -22,11 +24,13 @@ function Form() {
         .then((response) => {
             console.log('SUCCESS!', response.status, response.text);
             setConfirmation('Message Sent! A member of our team will get back to you as soon as possible.');
-            setToSend({ from_name: '', message: '', reply_to: ''})
+            setConfirmationCSS('success-message');
+            setToSend({ from_name: '', message: '', reply_to: ''});
         })
         .catch((err) => {
             console.log('FAILED...', err);
             setConfirmation('Error, message not sent. Please ensure all fields are filled correctly and try again.');
+            setConfirmationCSS('fail-message');
         });
     };
     
@@ -36,7 +40,7 @@ function Form() {
 
     return (
         <form onSubmit={onSubmit}>
-                <p className='confirmation-message'>{confirmation}</p>
+                <p className={confirmationCss}>{confirmation}</p>
                 <input
                     className='name-input'
                     type='text'
@@ -70,6 +74,4 @@ function Form() {
                 <button className='contact-submit-button' type='submit'>Submit</ button>
                 </ form>
     )
-}
-
-export default Form;
+};
